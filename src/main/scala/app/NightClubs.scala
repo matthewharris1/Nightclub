@@ -10,7 +10,7 @@ object NightClubs extends nightclubEntry {
   var flor = "Floritas"
 
   def whichClub (name: String): Unit = {
-    if (name == "Matthew") {
+    if (name.length > 8) {
       println (s"Hey $name, your fave club is $digi")
     } else if (name == "Daniel") {
       println(s"Hey $name your fave club is $flor")
